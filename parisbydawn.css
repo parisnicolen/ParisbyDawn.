@@ -1,0 +1,80 @@
+/* APPLY MONTSERRAT */
+body, * {
+  font-family: 'Montserrat', sans-serif !important;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* HEADER */
+/* HEADER */
+.header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: white;
+  z-index: 100;
+  border-bottom: 1px solid #eee;   /* thin minimal line */
+}
+
+.header-inner {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px 40px;
+  height: 170px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;  /* LOGO LEFT, NAV RIGHT */
+}
+
+
+/* LOGO */
+.logo img {
+  height: 200px;
+}
+
+/* NAVIGATION */
+/* --- NAVIGATION (updated) --- */
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav ul {
+  display: flex;
+  list-style: none;
+  gap: 40px;                      /* spacing between links */
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  letter-spacing: 1px;
+  padding: 8px 12px;              /* gives shape */
+  border-radius: 6px;
+  transition: all 0.25s ease;
+}
+
+.nav ul li a:hover {
+  background: black;              /* monochrome hover */
+  color: white;
+  transform: translateY(-2px);    /* subtle lift */
+}
+
+
+
+/* HERO VIDEO FULLSCREEN */
+.hero {
+  margin-top:200px;
+  width: 100%;
+  height: 80vh;   /* change this number */
+}
+
+.hero-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
